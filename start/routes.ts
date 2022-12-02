@@ -26,3 +26,4 @@ Route.get('/', async () => {
 
 Route.get('/test-camel-case', 'TestsController.testCamelCase')
 Route.get('/test-snake-case', 'TestsController.testSnakeCase')
+Route.get('/test-serialize', 'TestsController.testSerialize')
